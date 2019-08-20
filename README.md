@@ -42,6 +42,15 @@ On the system vps.example.com, you can now run dnsseed:
 If you want the DNS server to report SOA records, please provide an
 e-mailadres (with the @ part replaced by .) using `-m`.
 
+Compiling
+-------------------
+Compiling will require boost and ssl.  On debian systems, these are provided
+by `libboost-dev` and `libssl-dev` respectively.
+
+$ make
+
+This will produce the `dnsseed` binary.
+
 RUNNING AS NON-ROOT
 -------------------
 
